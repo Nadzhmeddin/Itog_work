@@ -21,3 +21,15 @@ void GetMiniArray(string[]arrayMax, string[]arrayMini)
         }
     }
 }
+
+void PrintArray(string[]array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+}
+
+
+GetMiniArray(arrayMax, arrayMini);
+PrintArray(arrayMini);
