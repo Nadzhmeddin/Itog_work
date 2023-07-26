@@ -3,10 +3,7 @@
 // либо задать на старте выполнения алгоритма. При решении не рекомендуется пользоваться коллекциями, 
 // лучше обойтись исключительно массивами.
 
-
-
 string[] arrayMax = new string[10] {"Moscow", "Rome", "Str", "Int", "Hi", "Russia", "USA", "China", "Japan", "Day"};
-
 string[] arrayMini = new string[arrayMax.Length];
 
 void GetMiniArray(string[]arrayMax, string[]arrayMini)
